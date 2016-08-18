@@ -1,0 +1,37 @@
+{
+  "author": "Mekeidje Roger <rogergui3000@gmail.com> (http://mekeidjeroger.comli.com)",
+  "name": "js-assessment",
+  "description": "A question-driven assessment of JavaScript skills",
+  "version": "0.3.0",
+  "homepage": "http://mekeidjeroger.comli.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogergui3000/js-assessment.git"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "browser-sync": "^2.8.2",
+    "chai": "^2.3.0",
+    "expect.js": "0.1.2",
+    "jquery": "^1.11.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1",
+    "underscore": "1.8.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -R spec 'tests/app'",
+    "lint": "eslint --quiet tests/app app",
+    "lint-warn": "eslint tests/app app"
+  },
+  "bugs": {
+    "url": "https://github.com/rogergui3000/js-assessment/issues"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^2.8.0"
+  }
+}
